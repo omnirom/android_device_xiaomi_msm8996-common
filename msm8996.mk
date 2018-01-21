@@ -276,6 +276,10 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
