@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The OmniROM Project
+ *  Copyright (C) 2018 The OmniROM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,9 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.cyanogenmod.settings.device.utils;
+package org.omnirom.device.utils;
 
-import com.cyanogenmod.settings.device.R;
+import org.omnirom.device.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

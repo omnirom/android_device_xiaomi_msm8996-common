@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2016 The CyanogenMod Project
- *           (C) 2017 The LineageOS Project
+ * Copyright (C) 2018 Omnirom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.omnirom.device;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -28,7 +27,7 @@ import android.util.Log;
 
 import java.io.File;
 
-import com.cyanogenmod.settings.device.utils.FileUtils;
+import org.omnirom.device.utils.FileUtils;
 
 public class Startup extends BroadcastReceiver {
 

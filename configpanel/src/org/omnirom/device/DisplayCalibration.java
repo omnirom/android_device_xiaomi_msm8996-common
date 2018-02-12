@@ -1,5 +1,5 @@
 /*
-* Copyright (C) 2016 The OmniROM Project
+* Copyright (C) 2018 The OmniROM Project
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.cyanogenmod.settings.device;
+package org.omnirom.device;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -30,7 +30,7 @@ import android.widget.SeekBar;
 import android.os.Bundle;
 
 import android.app.ActionBar;
-import com.cyanogenmod.settings.device.utils.SeekBarPreference;
+import org.omnirom.device.utils.SeekBarPreference;
 
 public class DisplayCalibration extends PreferenceActivity implements
         OnPreferenceChangeListener {

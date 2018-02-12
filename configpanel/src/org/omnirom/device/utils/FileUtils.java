@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The CyanogenMod Project
+ * Copyright (C) 2018 Omnirom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device.utils;
+package org.omnirom.device.utils;
 
 import android.util.Log;
 

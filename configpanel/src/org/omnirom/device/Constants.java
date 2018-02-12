@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2016 The CyanogenMod Project
- *           (C) 2017 The LineageOS Project
+ * Copyright (C) 2018 Omnirom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.omnirom.device;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +36,7 @@ public class Constants {
     public static final String DT2W_NODE = "/proc/touchpanel/double_tap_enable";
     
     // Intents
-    public static final String CUST_INTENT = "com.cyanogenmod.settings.device.CUST_UPDATE";
+    public static final String CUST_INTENT = "org.omnirom.device.CUST_UPDATE";
     public static final String CUST_INTENT_EXTRA = "pocketmode_service";
 
     // Holds <preference_key> -> <proc_node> mapping

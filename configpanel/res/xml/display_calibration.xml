@@ -19,31 +19,31 @@
                 android:title="@string/kcal_enabled_title"
                 android:summary="@string/kcal_enabled_summary"
                 android:persistent="false" />
-        <com.cyanogenmod.settings.device.utils.SeekBarPreference
+        <org.omnirom.device.utils.SeekBarPreference
                 android:key="kcal_red"
                 android:title="@string/kcal_red"
                 android:max="256"
                 android:dependency="kcal_enabled"
                 android:persistent="false" />
-        <com.cyanogenmod.settings.device.utils.SeekBarPreference
+        <org.omnirom.device.utils.SeekBarPreference
                 android:key="kcal_green"
                 android:title="@string/kcal_green"
                 android:max="256"
                 android:dependency="kcal_enabled"
                 android:persistent="false" />
-        <com.cyanogenmod.settings.device.utils.SeekBarPreference
+        <org.omnirom.device.utils.SeekBarPreference
                 android:key="kcal_blue"
                 android:title="@string/kcal_blue"
                 android:max="256"
                 android:dependency="kcal_enabled"
                 android:persistent="false" />
-        <com.cyanogenmod.settings.device.utils.SeekBarPreference
+        <org.omnirom.device.utils.SeekBarPreference
                 android:key="kcal_contrast"
                 android:title="@string/kcal_contrast"
                 android:max="256"
                 android:dependency="kcal_enabled"
                 android:persistent="false" />
-        <com.cyanogenmod.settings.device.utils.SeekBarPreference
+        <org.omnirom.device.utils.SeekBarPreference
                 android:key="kcal_saturation"
                 android:title="@string/kcal_saturation"
                 android:max="256"

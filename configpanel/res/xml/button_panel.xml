@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+     Copyright (C) 2018 Omnirom
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -65,7 +64,7 @@
 
     <PreferenceScreen
             android:key="kcal"
-            android:fragment="com.cyanogenmod.settings.device.DisplayCalibration"
+            android:fragment="org.omnirom.device.DisplayCalibration"
             android:summary="@string/kcal_summary"
             android:title="@string/kcal_title" />
 
