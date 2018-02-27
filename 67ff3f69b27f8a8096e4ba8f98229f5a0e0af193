@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "abc6af53_71485677",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-27T23:23:56Z",
+      "side": 1,
+      "message": "findPreference(KEY_HOMEBUTTON_SWITCH);",
+      "revId": "67ff3f69b27f8a8096e4ba8f98229f5a0e0af193",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31525ed6_b4ef9cfb",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-27T23:23:56Z",
+      "side": 1,
+      "message": "indentation",
+      "revId": "67ff3f69b27f8a8096e4ba8f98229f5a0e0af193",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e18487f3_2925750f",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-27T23:23:56Z",
+      "side": 1,
+      "message": "indentation!",
+      "revId": "67ff3f69b27f8a8096e4ba8f98229f5a0e0af193",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
