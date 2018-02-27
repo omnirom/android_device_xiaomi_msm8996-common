@@ -29,6 +29,8 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.view.MenuItem;
+import android.provider.Settings;
+import android.content.Context;
 
 import java.io.File;
 
@@ -37,11 +39,19 @@ import org.omnirom.device.utils.FileUtils;
 public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
 
+    private static final String KEY_HOMEBUTTON_SWITCH = "homebutton_switch";
+    private Context context;
     private Preference mKcalPref;
+    private SwitchPreference mHomeButtonSwitch;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.button_panel);
+
+        SwitchPreference mHomeButtonSwitch = (SwitchPreference) findPreference("KEY_HOMEBUTTON_SWITCH");
+        mHomeButtonSwitch.setChecked(Settings.System.getInt(context.getContentResolver(),
+                    Settings.System.BUTTON_EXTRA_KEY_MAPPING, 0) != 0);
+
         mKcalPref = findPreference("kcal");
         mKcalPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
              @Override
