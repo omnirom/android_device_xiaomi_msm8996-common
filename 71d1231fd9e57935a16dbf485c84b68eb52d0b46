@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "01ac54c4_c27bb377",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-28T14:00:39Z",
+      "side": 1,
+      "message": "line continue is always two indents \u003d\u003d 8 spaces\nsee above for example",
+      "revId": "71d1231fd9e57935a16dbf485c84b68eb52d0b46",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
