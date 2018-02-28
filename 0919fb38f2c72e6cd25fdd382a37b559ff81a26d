@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "62fe2ef6_4b8e2dee",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-28T00:14:21Z",
+      "side": 1,
+      "message": "wrong indent",
+      "revId": "0919fb38f2c72e6cd25fdd382a37b559ff81a26d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9102fd9_045b3f1e",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-28T00:14:21Z",
+      "side": 1,
+      "message": "wrong indent",
+      "revId": "0919fb38f2c72e6cd25fdd382a37b559ff81a26d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17391972_2b4f83d3",
+        "filename": "configpanel/src/org/omnirom/device/ButtonSettingsFragment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2018-02-28T00:14:21Z",
+      "side": 1,
+      "message": "wrong indent",
+      "revId": "0919fb38f2c72e6cd25fdd382a37b559ff81a26d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
