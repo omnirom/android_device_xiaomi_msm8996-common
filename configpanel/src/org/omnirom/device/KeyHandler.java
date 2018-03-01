@@ -36,11 +36,13 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final String TAG = KeyHandler.class.getSimpleName();
     private static final boolean DEBUG = true;
 
+    private static final String KEY_CONTROL_PATH = "/proc/touchpanel/capacitive_keys_enable";
     private static final int KEY_HOME = 102;
 
     protected final Context mContext;
     private Handler mHandler = new Handler();
     private SettingsObserver mSettingsObserver;
+    private static boolean mButtonDisabled;
     private static boolean mHomeButtonWakeEnabled;
 
     private class SettingsObserver extends ContentObserver {
@@ -49,6 +51,9 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         void observe() {
+            mContext.getContentResolver().registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.HARDWARE_KEYS_DISABLE),
+                    false, this);
             mContext.getContentResolver().registerContentObserver(Settings.System.getUriFor(
                     Settings.System.BUTTON_EXTRA_KEY_MAPPING),
                     false, this);
@@ -96,6 +101,17 @@ public class KeyHandler implements DeviceKeyHandler {
                 context.getContentResolver(), Settings.System.BUTTON_EXTRA_KEY_MAPPING, 0,
                 UserHandle.USER_CURRENT) == 1;
         if (DEBUG) Log.i(TAG, "mHomeButtonWakeEnabled=" + mHomeButtonWakeEnabled);
+    }
+
+    public static void setButtonDisable(Context context) {
+        mButtonDisabled = Settings.System.getIntForUser(
+                context.getContentResolver(), Settings.System.HARDWARE_KEYS_DISABLE, 0,
+                UserHandle.USER_CURRENT) == 1;
+        if (DEBUG) Log.i(TAG, "setButtonDisable=" + mButtonDisabled);
+        if(mButtonDisabled)
+            Utils.writeValue(KEY_CONTROL_PATH, "1");
+        else
+            Utils.writeValue(KEY_CONTROL_PATH, "0");
     }
 
     @Override
