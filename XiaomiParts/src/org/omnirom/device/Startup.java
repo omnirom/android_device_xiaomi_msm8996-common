@@ -39,6 +39,7 @@ public class Startup extends BroadcastReceiver {
 
         DisplayCalibration.restore(context);
         KeyHandler.setButtonSetting(context);
+        KeyHandler.setButtonDisable(context);
 
         if (Intent.ACTION_BOOT_COMPLETED.equals(action)
                 || Intent.ACTION_PRE_BOOT_COMPLETED.equals(action)) {

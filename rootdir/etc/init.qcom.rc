@@ -235,6 +235,10 @@ on boot
     chown system system /sys/class/timed_output/vibrator/vtg_level
     chmod 0660 /sys/class/timed_output/vibrator/vtg_level
 
+    # Buttons
+    chown root system /proc/touchpanel/capacitive_keys_enable
+    chmod 0660 /proc/touchpanel/capacitive_keys_enable
+
     # Access permission for fingerprint
     chown system system /sys/devices/soc/soc:fpc_fpc1020/irq
     chown system system /sys/devices/soc/soc:fpc_fpc1020/enable_key_events
