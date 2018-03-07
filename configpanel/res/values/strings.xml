@@ -62,4 +62,10 @@
     <string name="button_home_wake_title">Home button wake</string>
     <string name="button_home_wake_summary">Pressing the home button will wake the device</string>
 
+    <!-- Vibrator -->
+    <string name="vibrator_category">Vibrator</string>
+    <string name="vibrator_title">Strength</string>
+    <string name="vibrator_summary">Define the strength of the vibrator</string>
+    <string name="vibrator_test">Test</string>
+
 </resources>
