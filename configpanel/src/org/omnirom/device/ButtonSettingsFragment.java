@@ -42,6 +42,7 @@ public class ButtonSettingsFragment extends PreferenceFragment
     private static final String KEY_HOMEBUTTON_SWITCH = "homebutton_switch";
     private Preference mKcalPref;
     private SwitchPreference mHomeButtonSwitch;
+    private VibratorStrengthPreference mVibratorStrength;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -72,6 +73,11 @@ public class ButtonSettingsFragment extends PreferenceFragment
                  return true;
              }
         });
+
+        mVibratorStrength = (VibratorStrengthPreference) findPreference("vibrator_key");
+        if (mVibratorStrength != null) {
+            mVibratorStrength.setEnabled(VibratorStrengthPreference.isSupported());
+        }
     }
 
     @Override
@@ -152,6 +158,15 @@ public class ButtonSettingsFragment extends PreferenceFragment
                         Constants.sNodeDependencyMap.get(pref)[1]);
                 Utils.updateDependentPreference(getContext(), b, pref, shouldSetEnabled);
             }
+        }
+    }
+
+    @Override
+    public void onDisplayPreferenceDialog(Preference preference) {
+        if (preference instanceof VibratorStrengthPreference){
+            ((VibratorStrengthPreference)preference).onDisplayPreferenceDialog(preference);
+        } else {
+            super.onDisplayPreferenceDialog(preference);
         }
     }
 }
