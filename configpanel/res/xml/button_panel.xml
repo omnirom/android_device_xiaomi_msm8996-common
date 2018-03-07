@@ -66,6 +66,15 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/vibrator_category">
+        <org.omnirom.device.VibratorStrengthPreference
+            android:key="vibrator_key"
+            android:iconSpaceReserved="false"
+            android:title="@string/vibrator_title"
+            android:summary="@string/vibrator_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
             android:title="@string/graphics_title">
 
     <PreferenceScreen
