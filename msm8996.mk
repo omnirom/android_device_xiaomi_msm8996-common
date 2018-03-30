@@ -28,6 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_CHARACTERISTICS := nosdcard
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -273,6 +274,16 @@ PRODUCT_PACKAGES += \
 # OMNI Charger Images
 PRODUCT_PACKAGES += \
     omni_charger_res_images
+
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory
+
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    VisualizationWallpapers \
+    librs_jni
 
 # OMX
 PRODUCT_PACKAGES += \
