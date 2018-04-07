@@ -1,0 +1,5 @@
+allow priv_app bt_firmware_file:dir { open read };
+allow priv_app device:dir { open read };
+allow priv_app proc_interrupts:file { open read };
+get_prop(priv_app, wifi_prop);
+
