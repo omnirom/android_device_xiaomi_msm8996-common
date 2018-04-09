@@ -22,9 +22,12 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INJECT_EVENTS"/>
-    <protected-broadcast android:name="org.omnirom.device.CUST_UPDATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <protected-broadcast android:name="org.omnirom.device.CUST_UPDATE" />
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <uses-sdk
         android:minSdkVersion="24" />
@@ -70,15 +73,28 @@
             </intent-filter>
         </activity-alias>
 
-                <activity
-                        android:name="org.omnirom.device.DisplayCalibration"
-                        android:exported="true"
-                        android:label="@string/kcal_title" >
-                        <intent-filter>
-                                <action android:name="android.intent.action.MAIN" />
-                                <category android:name="android.intent.category.DEFAULT" />
-                        </intent-filter>
-		</activity>
+        <activity
+            android:name="org.omnirom.device.DisplayCalibration"
+            android:exported="true"
+            android:label="@string/kcal_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	</activity>
+
+        <activity
+            android:name="org.omnirom.device.DozeSettingsActivity"
+            android:label="@string/doze_category_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".DozeService"
+                 android:permission="XiaomiDozeService">
+        </service>
 
         <activity android:name=".KeyHandler" />
 
