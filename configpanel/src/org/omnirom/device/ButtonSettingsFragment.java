@@ -16,6 +16,7 @@
 
 package org.omnirom.device;
 
+import android.app.ActionBar;
 import android.content.SharedPreferences;
 import android.content.Intent;
 import android.os.Bundle;
@@ -47,6 +48,8 @@ public class ButtonSettingsFragment extends PreferenceFragment
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.button_panel);
+        final ActionBar actionBar = getActivity().getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         SwitchPreference mHomeButtonSwitch = (SwitchPreference) findPreference(KEY_HOMEBUTTON_SWITCH);
         mHomeButtonSwitch.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
@@ -145,6 +148,15 @@ public class ButtonSettingsFragment extends PreferenceFragment
         // Initialize other preferences whose keys are not associated with nodes
         SwitchPreference b = (SwitchPreference) findPreference(Constants.FP_POCKETMODE_KEY);
         b.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            getActivity().onBackPressed();
+            return true;
+        }
+        return false;
     }
 
     private void updatePreferencesBasedOnDependencies() {
