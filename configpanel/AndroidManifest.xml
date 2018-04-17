@@ -81,22 +81,22 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-	</activity>
+        </activity>
 
         <activity
             android:name="org.omnirom.device.DozeSettingsActivity"
-            android:label="@string/doze_category_title" >
+            android:label="@string/doze_category_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".KeyHandler" />
+
         <service android:name=".DozeService"
                  android:permission="XiaomiDozeService">
         </service>
-
-        <activity android:name=".KeyHandler" />
 
 	<receiver android:name="org.omnirom.device.Startup" >
             <intent-filter android:priority="100">
@@ -104,6 +104,14 @@
                 <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+
+        <receiver android:name="org.omnirom.device.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
