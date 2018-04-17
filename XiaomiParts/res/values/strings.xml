@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+     Copyright (C) 2018 Omnirom
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -86,5 +85,4 @@
     <string name="switch_bar_on">On</string>
     <string name="switch_bar_off">Off</string>
     <string name="ambient_display_enable">Ambient display must be enabled in display settings or will be activated automatically if you activate ambient display here</string>
-
 </resources>
