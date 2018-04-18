@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2016 The CyanogenMod Project
- *               2017 The LineageOS Project
+ * Copyright (c) 2018 Omnirom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode;
+package org.omnirom.pocketmode;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -24,7 +23,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.util.Log;
 
-import com.cyanogenmod.pocketmode.utils.FileUtils;
+import org.omnirom.pocketmode.utils.FileUtils;
 
 public class ProximitySensor implements SensorEventListener {
 
@@ -39,8 +38,7 @@ public class ProximitySensor implements SensorEventListener {
 
     public ProximitySensor(Context context) {
         mContext = context;
-        mSensorManager = (SensorManager)
-                mContext.getSystemService(Context.SENSOR_SERVICE);
+        mSensorManager = mContext.getSystemService(SensorManager.class);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
     }
 

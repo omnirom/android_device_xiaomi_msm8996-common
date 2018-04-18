@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2016 The CyanogenMod Project
- *               2017 The LineageOS Project
+ * Copyright (c) 2018 Omnirom
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.pocketmode;
+package org.omnirom.pocketmode;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -32,7 +31,7 @@ public class PocketModeService extends Service {
     private static final String TAG = "PocketModeService";
     private static final boolean DEBUG = false;
 
-    private static final String CUST_INTENT = "com.cyanogenmod.settings.device.CUST_UPDATE";
+    private static final String CUST_INTENT = "org.omnirom.device.CUST_UPDATE";
     private static final String CUST_INTENT_EXTRA = "pocketmode_service";
 
     private static List<BroadcastReceiver> receivers = new ArrayList<BroadcastReceiver>();
