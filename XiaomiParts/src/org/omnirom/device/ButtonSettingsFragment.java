@@ -25,6 +25,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceManager;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceScreen;
@@ -36,6 +37,7 @@ import android.content.Context;
 import java.io.File;
 
 import org.omnirom.device.utils.FileUtils;
+import org.omnirom.device.utils.PackageManagerUtils;
 
 public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
@@ -146,8 +148,21 @@ public class ButtonSettingsFragment extends PreferenceFragment
         }
 
         // Initialize other preferences whose keys are not associated with nodes
+        final PreferenceCategory fingerprintCategory =
+                (PreferenceCategory) getPreferenceScreen().findPreference(Constants.CATEGORY_FP);
+
         SwitchPreference b = (SwitchPreference) findPreference(Constants.FP_POCKETMODE_KEY);
-        b.setOnPreferenceChangeListener(this);
+        if (!PackageManagerUtils.isAppInstalled(getContext(), "org.omnirom.pocketmode")) {
+            fingerprintCategory.removePreference(b);
+        } else {
+            b.setOnPreferenceChangeListener(this);
+        }
+
+        // Hide fingerprint features if the device doesn't support them
+        if (!FileUtils.fileExists(Constants.FP_HOME_KEY_NODE) &&
+                !FileUtils.fileExists(Constants.FP_WAKEUP_NODE)) {
+            getPreferenceScreen().removePreference(fingerprintCategory);
+        }
     }
 
     @Override

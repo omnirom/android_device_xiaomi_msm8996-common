@@ -30,19 +30,17 @@
     <string name="button_swap_title">Swap buttons</string>
     <string name="button_swap_summary">Swap the order of recents and back buttons</string>
 
-    <!-- Fingeprint reader settings -->
-    <string name="fp_title">Fingerprint</string>
+    <!-- DT2W -->
     <string name="gestures_title">Gestures</string>
-
-    <string name="fp_home_title">Fingerprint as button</string>
-    <string name="fp_home_summary">Use fingerprint reader as a customizeble button</string>
-
     <string name="dt2w_title">Tap to wake</string>
     <string name="dt2w_summary">Double tap on screen wake device</string>
 
-    <string name="fp_wakeup_title">Fingerprint wakes device</string>
-    <string name="fp_wakeup_summary">Allow fingerprint to wake the device while screen is off</string>
-
+    <!-- Fingerprint -->
+    <string name="fingerprint_title">Fingerprint</string>
+    <string name="fingerprint_as_home_title">Fingerprint as home</string>
+    <string name="fingerprint_as_home_summary">Use the fingerprint sensor as a home button</string>
+    <string name="fingerprint_wakeup_title">Fingerprint wake-up</string>
+    <string name="fingerprint_wakeup_summary">Allow the fingerprint sensor to wake the device while the screen is off</string>
     <string name="fingerprint_pocketmode_title">Prevent accidental wake-up</string>
     <string name="fingerprint_pocketmode_summary">Check the proximity sensor prior to wake-ups triggered by the fingerprint sensor</string>
 

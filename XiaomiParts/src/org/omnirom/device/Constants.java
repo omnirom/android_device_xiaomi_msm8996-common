@@ -21,6 +21,9 @@ import java.util.Map;
 
 public class Constants {
 
+    // Category keys
+    public static final String CATEGORY_FP = "fp_key";
+
     // Preference keys
     public static final String BUTTON_SWAP_KEY = "button_swap";
     public static final String FP_HOME_KEY = "fp_home";
@@ -34,7 +37,7 @@ public class Constants {
     public static final String FP_WAKEUP_NODE = "/sys/devices/soc/soc:fpc_fpc1020/enable_wakeup";
     public static final String VIRTUAL_KEYS_NODE = "/proc/touchpanel/capacitive_keys_enable";
     public static final String DT2W_NODE = "/proc/touchpanel/double_tap_enable";
-    
+
     // Intents
     public static final String CUST_INTENT = "org.omnirom.device.CUST_UPDATE";
     public static final String CUST_INTENT_EXTRA = "pocketmode_service";
