@@ -401,5 +401,7 @@
     <bool name="config_FastChargingLedSupported">true</bool>
 
     <bool name="config_multiColorNotificationLed">true</bool>
+
+   <bool name="config_proxiSensorWakupCheck">true</bool>
     
 </resources>
