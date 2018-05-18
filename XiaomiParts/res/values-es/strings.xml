@@ -39,6 +39,7 @@
   <string name="kcal_title">Color de la pantalla</string>
   <string name="kcal_summary">Calibración de color de pantalla usando KCAL</string>
   <string name="kcal_enabled_title">Habilitar KCAL</string>
+  <string name="kcal_enabled_summary">Encienda la calibración de pantalla usando KCAL</string>
   <string name="kcal_red">Rojo</string>
   <string name="kcal_green">Verde</string>
   <string name="kcal_blue">Azul</string>
@@ -46,9 +47,11 @@
   <string name="kcal_contrast">Contraste</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Despertar con botón Inicio</string>
+  <string name="button_home_wake_summary">Presionar el botón Inicio despertará el dispositivo</string>
   <!-- Vibrator -->
   <string name="vibrator_category">Vibración</string>
   <string name="vibrator_title">Intensidad</string>
+  <string name="vibrator_summary">Define la intensidad de la vibración</string>
   <string name="vibrator_test">Prueba</string>
   <!-- Doze -->
   <string name="doze_title">Doze</string>
@@ -56,7 +59,11 @@
   <string name="doze_category_summary">Activar la pantalla cuando recibas notificaciones</string>
   <string name="tilt_sensor_title">Sensor de inclinación</string>
   <string name="pick_up_gesture_title">Levantar</string>
+  <string name="proximity_sensor_title">Sensor de proximidad</string>
+  <string name="hand_wave_gesture_title">Onda de mano</string>
+  <string name="hand_wave_gesture_summary">Notificaciones de pulso en la mano</string>
   <string name="pocket_gesture_title">Bolsillo</string>
+  <string name="pocket_gesture_summary">Notificaciones de pulso al sacar del bolsillo</string>
   <string name="dialog_ok">OK</string>
   <string name="doze_settings_help_title">Ayuda</string>
   <string name="switch_bar_on">Encendido</string>

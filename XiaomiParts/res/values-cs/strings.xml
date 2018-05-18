@@ -37,6 +37,7 @@
   <string name="fingerprint_wakeup_title">Probudit otiskem prstu</string>
   <string name="fingerprint_wakeup_summary">Povolit probuzení zařízení otiskem prstu při vypnuté obrazovce</string>
   <string name="fingerprint_pocketmode_title">Zabránit náhodnému probuzení</string>
+  <string name="fingerprint_pocketmode_summary">Před probuzením zařízení otiskem prstů zkontrolovat snímač přiblížení</string>
   <!-- Kcal -->
   <string name="kcal_title">Barva displeje</string>
   <string name="kcal_summary">Kalibrace barev displeje pomocí KCAL</string>
@@ -69,6 +70,7 @@
   <string name="pocket_gesture_summary">Pulzní oznámení při vyjmutí z kapsy</string>
   <string name="dialog_ok">OK</string>
   <string name="doze_settings_help_title">Nápověda</string>
+  <string name="doze_settings_help_text">Tyto funkce využívají události snímače k signalizaci oznámení během spánku. Vybraný snímač je povolen pouze tehdy, když zařízení obdrží oznámení. To pomáhá snížit spotřebu baterie. K dispozici je také možnost zapnout zvolený snímač, jakmile se obrazovka vypne, což způsobí vyšší spotřebu baterie.</string>
   <string name="switch_bar_on">Zapnuto</string>
   <string name="switch_bar_off">Vypnuto</string>
   <string name="ambient_display_enable">Ambientní displej musí být aktivován v nastavení obrazovky nebo se aktivuje automaticky, pokud zde aktivujete Ambientní displej</string>

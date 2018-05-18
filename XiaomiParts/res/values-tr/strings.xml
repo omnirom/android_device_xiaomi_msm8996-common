@@ -36,7 +36,7 @@
   <string name="fingerprint_as_home_summary">Parmak izi sensörünü ana ekran düğmesi olarak kullanın</string>
   <string name="fingerprint_wakeup_title">Parmak izi ile uyandırma</string>
   <string name="fingerprint_wakeup_summary">Ekran kapalıyken parmak izi sensörünün cihazı uyandırmasına izin verin</string>
-  <string name="fingerprint_pocketmode_title">Tesadüfi uyanışlara mani ol</string>
+  <string name="fingerprint_pocketmode_title">Kazara uyanışlara mani ol</string>
   <string name="fingerprint_pocketmode_summary">Parmak izinin sebep olduğu uyanmalarda yakınlık sensörünü uyanmadan evvel yokla</string>
   <!-- Kcal -->
   <string name="kcal_title">Ekran rengi</string>
