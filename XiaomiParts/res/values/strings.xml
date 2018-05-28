@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Category title -->
-    <string name="buttons_title">Hadware Buttons</string>
+    <string name="buttons_title">Hardware Buttons</string>
     <string name="graphics_title">Graphics</string>
 
     <!-- Application title -->
@@ -33,7 +33,7 @@
     <!-- DT2W -->
     <string name="gestures_title">Gestures</string>
     <string name="dt2w_title">Tap to wake</string>
-    <string name="dt2w_summary">Double tap on screen wake device</string>
+    <string name="dt2w_summary">Double tap on screen to wake device</string>
 
     <!-- Fingerprint -->
     <string name="fingerprint_title">Fingerprint</string>
@@ -53,7 +53,7 @@
     <string name="kcal_green">Green</string>
     <string name="kcal_blue">Blue</string>
     <string name="kcal_saturation">Saturation</string>
-    <string name="kcal_contrast">Constrast</string>
+    <string name="kcal_contrast">Contrast</string>
 
     <!-- Home Wake -->
     <string name="button_home_wake_title">Home button wake</string>
