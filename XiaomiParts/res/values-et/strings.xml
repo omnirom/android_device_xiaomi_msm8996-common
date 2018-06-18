@@ -57,7 +57,10 @@
   <string name="vibrator_summary">Määra vibraatori tugevus</string>
   <string name="vibrator_test">Proovi</string>
   <!-- Doze -->
+  <string name="doze_title">Uinak</string>
   <string name="doze_category_title">Ambientne ekraan</string>
+  <string name="doze_category_summary">Ärata ekraan, kui saad teateid</string>
+  <string name="tilt_sensor_title">Pööramissensor</string>
   <string name="pick_up_gesture_title">Tõstmine</string>
   <string name="pick_up_gesture_summary">Pulseeri teateid seadme tõstmisel</string>
   <string name="proximity_sensor_title">Lähedussensor</string>
@@ -67,6 +70,8 @@
   <string name="pocket_gesture_summary">Pulseeri teateid, kui seade võetakse taskust välja</string>
   <string name="dialog_ok">OK</string>
   <string name="doze_settings_help_title">Abi</string>
+  <string name="doze_settings_help_text">Need funktsioonid kasutavad sensorite sündmusi, käivitamaks uinaku teatepulseeringu. Valitud sensor lubatakse vaid siis, kui seade saab teate, see aitab vähendada akukasutust. On olemas ka valik, lubamaks valitud sensori kohe, kui ekraan lülitub välja, see põhjustab suuremat akukasutust.</string>
   <string name="switch_bar_on">Sees</string>
   <string name="switch_bar_off">Väljas</string>
+  <string name="ambient_display_enable">Ambientne ekraan peab olema lubatud kuvaseadetes, vastasel korral see aktiveeritakse, kui lubad selle valiku siin</string>
 </resources>

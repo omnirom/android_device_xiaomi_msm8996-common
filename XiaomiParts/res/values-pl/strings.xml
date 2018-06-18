@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
-  <string name="buttons_title">Przyciski sprzętowe</string>
   <string name="graphics_title">Grafika</string>
   <!-- Application title -->
   <string name="device_settings_app_name">Funkcje urządzenia</string>
@@ -29,7 +28,6 @@
   <!-- DT2W -->
   <string name="gestures_title">Gesty</string>
   <string name="dt2w_title">Stuknij, aby obudzić</string>
-  <string name="dt2w_summary">Wybudzanie urządzenia podwójnym dotknięciem ekranu</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Odcisk palca</string>
   <string name="fingerprint_as_home_title">Odcisk palca jako przycisk home</string>
@@ -47,7 +45,6 @@
   <string name="kcal_green">Zielony</string>
   <string name="kcal_blue">Niebieski</string>
   <string name="kcal_saturation">Nasycenie</string>
-  <string name="kcal_contrast">Kontrast</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Wybudzenie przyciskiem Home</string>
   <string name="button_home_wake_summary">Naciśnięcie przycisku Home wybudzi urządzenie</string>

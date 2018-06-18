@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
-  <string name="buttons_title">Hadware knoppen</string>
   <string name="graphics_title">Afbeeldingen</string>
   <!-- Application title -->
   <string name="device_settings_app_name">Apparaat functies</string>
@@ -29,7 +28,6 @@
   <!-- DT2W -->
   <string name="gestures_title">Gebaren</string>
   <string name="dt2w_title">Tik om te ontwaken</string>
-  <string name="dt2w_summary">Dubbel tikken op het scherm zal het apparaat wekken</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Vingerafdruk</string>
   <string name="fingerprint_as_home_title">Vingerafdruk als start</string>
@@ -47,7 +45,6 @@
   <string name="kcal_green">Groen</string>
   <string name="kcal_blue">Blauw</string>
   <string name="kcal_saturation">Verzadiging</string>
-  <string name="kcal_contrast">Contrast</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Thuisknop wekken</string>
   <string name="button_home_wake_summary">Maak je apparaat wakker door op de home-knop te drukken</string>

@@ -29,7 +29,7 @@
   <!-- DT2W -->
   <string name="gestures_title">手势</string>
   <string name="dt2w_title">点击唤醒</string>
-  <string name="dt2w_summary">双击屏幕唤醒设备</string>
+  <string name="dt2w_summary">在屏幕上双击唤醒设备</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">指纹</string>
   <string name="fingerprint_as_home_title">指纹作为主页</string>
@@ -47,7 +47,7 @@
   <string name="kcal_green">绿色</string>
   <string name="kcal_blue">蓝色</string>
   <string name="kcal_saturation">饱和度</string>
-  <string name="kcal_contrast">对比</string>
+  <string name="kcal_contrast">对比度</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">主页键唤醒</string>
   <string name="button_home_wake_summary">按下主页键唤醒设备</string>

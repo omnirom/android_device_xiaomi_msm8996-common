@@ -33,7 +33,6 @@
   <string name="kcal_green">Vert</string>
   <string name="kcal_blue">Bleu</string>
   <string name="kcal_saturation">Saturation</string>
-  <string name="kcal_contrast">Contraste</string>
   <!-- Home Wake -->
   <string name="button_home_wake_summary">En appuyant sur le bouton home vous réveillez l’appareil</string>
   <!-- Vibrator -->

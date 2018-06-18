@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
-  <string name="buttons_title">Φυσικά Πλήκτρα</string>
   <string name="graphics_title">Γραφικά</string>
   <!-- Application title -->
   <!-- Button settings -->
@@ -26,7 +25,6 @@
   <string name="button_swap_summary">Εναλλαγή της διάταξης των πλήκτρων προσφάτων και πίσω</string>
   <!-- DT2W -->
   <string name="gestures_title">Χειρονομίες</string>
-  <string name="dt2w_summary">Διπλό χτύπημα στην οθόνη για αφύπνιση της συσκευής</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Δαχτυλικό αποτύπωμα</string>
   <string name="fingerprint_as_home_title">Δακτυλικό αποτύπωμα ως αφετηρία</string>
@@ -44,7 +42,6 @@
   <string name="kcal_green">Πράσινο</string>
   <string name="kcal_blue">Μπλε</string>
   <string name="kcal_saturation">Κορεσμός</string>
-  <string name="kcal_contrast">Αντίθεση</string>
   <!-- Home Wake -->
   <string name="button_home_wake_summary">Ενεργοποίηση της οθόνης με το άγγιγμα του κουμπιού αφετηρίας</string>
   <!-- Vibrator -->

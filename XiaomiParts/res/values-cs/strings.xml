@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
-  <string name="buttons_title">Hadwarová tlačítka</string>
+  <string name="buttons_title">Hardwarová tlačítka</string>
   <string name="graphics_title">Grafika</string>
   <!-- Application title -->
   <string name="device_settings_app_name">Funkce zařízení</string>

@@ -29,7 +29,7 @@
   <!-- DT2W -->
   <string name="gestures_title">Gesti</string>
   <string name="dt2w_title">Tocca per risvegliare</string>
-  <string name="dt2w_summary">Un doppio tocco sullo schermo risveglierà il dispositivo</string>
+  <string name="dt2w_summary">Doppio tocco sullo schermo per accendere lo schermo</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Impronte digitali</string>
   <string name="fingerprint_as_home_title">Sensore di impronte come tasto home</string>

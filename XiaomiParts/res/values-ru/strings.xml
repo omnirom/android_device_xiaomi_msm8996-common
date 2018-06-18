@@ -29,7 +29,7 @@
   <!-- DT2W -->
   <string name="gestures_title">Жесты</string>
   <string name="dt2w_title">Включение нажатием</string>
-  <string name="dt2w_summary">Дважды нажмите в любом месте экрана, чтобы включить устройство</string>
+  <string name="dt2w_summary">Дважды нажмите на экран, чтобы пробудить устройство</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Сканер отпечатков пальцев</string>
   <string name="fingerprint_as_home_title">Сканер отпечатков как кнопка \"Домой\"</string>
@@ -70,6 +70,8 @@
   <string name="pocket_gesture_summary">Отображать уведомления при извлечении устройства из кармана</string>
   <string name="dialog_ok">OK</string>
   <string name="doze_settings_help_title">Справка</string>
+  <string name="doze_settings_help_text">Эти функции используют события датчиков для отображения уведомлений. Датчик проверяется только при поступлении нового уведомления, что помогает сэкономить заряд батареи. Можно активировать включение датчика сразу при отключении экрана устройства, однако это может ускорить разряд батареи.</string>
   <string name="switch_bar_on">Вкл</string>
   <string name="switch_bar_off">Выкл</string>
+  <string name="ambient_display_enable">Опция активного экрана должнп быть включена в настройках дисплея или будет активирована автоматически, если вы активируете активный экран здесь</string>
 </resources>

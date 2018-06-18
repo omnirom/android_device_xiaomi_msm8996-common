@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
-  <string name="buttons_title">Botons de maquinari</string>
   <string name="graphics_title">Gràfics</string>
   <!-- Application title -->
   <string name="device_settings_app_name">Característiques del dispositiu</string>
@@ -29,7 +28,6 @@
   <!-- DT2W -->
   <string name="gestures_title">Gests</string>
   <string name="dt2w_title">Tocar per despertar</string>
-  <string name="dt2w_summary">Doble toc a la pantalla per activar el dispositiu</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Empremta digital</string>
   <string name="fingerprint_as_home_title">Sensor d\'empremta com a inici</string>
@@ -47,7 +45,6 @@
   <string name="kcal_green">Verd</string>
   <string name="kcal_blue">Blau</string>
   <string name="kcal_saturation">Saturació</string>
-  <string name="kcal_contrast">Constrast</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Despertar amb el botó inici</string>
   <string name="button_home_wake_summary">En prémer el botó inici es despertarà el dispositiu</string>

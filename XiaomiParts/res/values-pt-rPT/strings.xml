@@ -29,7 +29,7 @@
   <!-- DT2W -->
   <string name="gestures_title">Gestos</string>
   <string name="dt2w_title">Toque duplo para acordar</string>
-  <string name="dt2w_summary">Toque duplo no ecrã para acordar o dispositivo</string>
+  <string name="dt2w_summary">Dê um toque duplo no ecrã para acordar o dispositivo</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Impressão digital</string>
   <string name="fingerprint_as_home_title">Página Inicial com impressão digital</string>
@@ -47,7 +47,7 @@
   <string name="kcal_green">Verde</string>
   <string name="kcal_blue">Azul</string>
   <string name="kcal_saturation">Saturação</string>
-  <string name="kcal_contrast">Constraste</string>
+  <string name="kcal_contrast">Contraste</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Acordar com botão Página Inicial</string>
   <string name="button_home_wake_summary">Pressionar o botão Página Inicial irá acordar o dispositivo</string>
