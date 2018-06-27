@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Category title -->
+  <string name="buttons_title">Botons de maquinari</string>
   <string name="graphics_title">Gràfics</string>
   <!-- Application title -->
   <string name="device_settings_app_name">Característiques del dispositiu</string>
@@ -26,8 +27,9 @@
   <string name="button_swap_title">Intercanvia els botons</string>
   <string name="button_swap_summary">Intercanvia l\'ordre dels botons recent i enrera</string>
   <!-- DT2W -->
-  <string name="gestures_title">Gests</string>
+  <string name="gestures_title">Gestos</string>
   <string name="dt2w_title">Tocar per despertar</string>
+  <string name="dt2w_summary">Doble toc a la pantalla per activar el dispositiu</string>
   <!-- Fingerprint -->
   <string name="fingerprint_title">Empremta digital</string>
   <string name="fingerprint_as_home_title">Sensor d\'empremta com a inici</string>
@@ -45,6 +47,7 @@
   <string name="kcal_green">Verd</string>
   <string name="kcal_blue">Blau</string>
   <string name="kcal_saturation">Saturació</string>
+  <string name="kcal_contrast">Contrast</string>
   <!-- Home Wake -->
   <string name="button_home_wake_title">Despertar amb el botó inici</string>
   <string name="button_home_wake_summary">En prémer el botó inici es despertarà el dispositiu</string>
@@ -67,6 +70,7 @@
   <string name="pocket_gesture_summary">Avisos intermitents en treure de la butxaca</string>
   <string name="dialog_ok">D\'acord</string>
   <string name="doze_settings_help_title">Ajuda</string>
+  <string name="doze_settings_help_text">Aquestes característiques utilitzen esdeveniments del sensor per iniciar un parpelleig d\'avís en becaina. El sensor escollit només s\'habilita si el dispositiu rep un avís; això ajuda a reduir el consum de bateria. També hi ha una opció per habilitat el sensor escollit just quan la pantalla s\'apaga; això augmentarà el consum de bateria.</string>
   <string name="switch_bar_on">Activat</string>
   <string name="switch_bar_off">Desactivat</string>
   <string name="ambient_display_enable">S\'ha d\'habilitar la pantalla activa a la configuració de pantalla o s\'activarà automàticament si habiliteu la pantalla activa des d\'aquí</string>
