@@ -398,7 +398,7 @@
     <bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Does device supports fast charging ? -->
-    <bool name="config_FastChargingLedSupported">true</bool>
+    <!-- <bool name="config_FastChargingLedSupported">true</bool> -->
 
     <bool name="config_multiColorNotificationLed">true</bool>
 
