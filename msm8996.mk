@@ -284,6 +284,12 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images \
+    animation.txt \
+    font_charger.png
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
