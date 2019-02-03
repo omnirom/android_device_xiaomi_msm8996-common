@@ -17,8 +17,11 @@
 package org.omnirom.device;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.Preference.OnPreferenceClickListener;
+import android.preference.PreferenceScreen;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
@@ -41,6 +44,8 @@ public class ButtonSettingsFragment extends PreferenceFragment
     private static final String KEY_HARDWARE_KEYS_DISABLE = "hardware_keys_disable";
     private SwitchPreference mHomeButtonSwitch;
     private SwitchPreference mKeysDisablesSwitch;
+
+    private Preference mButtonCustomization;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -78,6 +83,16 @@ public class ButtonSettingsFragment extends PreferenceFragment
                      return true;
                  }
                  return false;
+             }
+        });
+
+        mButtonCustomization = findPreference("button_customization");
+        mButtonCustomization.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+             @Override
+             public boolean onPreferenceClick(Preference preference) {
+                 Intent intent = new Intent(getActivity(), ButtonCustomization.class);
+                 startActivity(intent);
+                 return true;
              }
         });
 

@@ -36,6 +36,12 @@
             android:summary="@string/hardware_keys_disable_summary"
             android:persistent="false" />
 
+        <PreferenceScreen
+            android:key="button_customization"
+            android:fragment="org.omnirom.device.ButtonCustomization"
+            android:summary="@string/button_customization_summary"
+            android:title="@string/button_customization_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

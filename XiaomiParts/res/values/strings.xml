@@ -50,6 +50,10 @@
     <string name="hardware_keys_disable_title">Disable keys</string>
     <string name="hardware_keys_disable_summary">Force disable hardware keys</string>
 
+    <!-- Button Customization -->
+    <string name="button_customization_title">Button Customization</string>
+    <string name="button_customization_summary">Customize hardware button</string>
+
     <!-- Doze -->
     <string name="doze_title">Doze</string>
     <string name="doze_category_title">Ambient display</string>

@@ -60,6 +60,16 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ButtonCustomization"
+            android:exported="true"
+            android:label="@string/button_customization_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity-alias
             android:name="org.omnirom.device.DeviceSettings"
             android:exported="true"
